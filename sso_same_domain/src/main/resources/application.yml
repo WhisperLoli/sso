@@ -1,0 +1,9 @@
+server:
+  port: 80
+spring:
+  freemarker:
+    cache: false
+    suffix: .html
+    template-loader-path:
+      - classpath:/templates/
+  

@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>登录</title>
+		<style type="text/css">
+			div{
+				text-align: center;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div>
+			<form action="http://check.x.com/doLogin">
+				<span>用户名</span><input type="text" name="username"/><br/>
+				<span>密码</span><input type="password" name="password"/><br/>
+				<input type="hidden" name="gotoUrl" value="${gotoUrl}"/>
+				<input type="submit" value="提交">
+			</form>
+		</div>
+	</body>
+</html>

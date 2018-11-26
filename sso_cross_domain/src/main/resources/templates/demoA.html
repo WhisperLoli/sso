@@ -1,0 +1,20 @@
+<html>
+	<meta charset="utf-8"/>
+	<head>
+		<title>DemoA主页</title>
+		<style type="text/css">
+			iframe{
+				width:0px;
+				height:0px;
+				display: none;
+			} 
+		</style>
+	</head>
+	<body>
+		欢迎登录DemoA主页！
+		<#list hiddenUrl! as eachUrl>
+			<div style="border:1px solid red;">${eachUrl}</div>
+			<iframe src="${eachUrl}">${eachUrl}</iframe>
+		</#list>
+	</body>
+</html>
